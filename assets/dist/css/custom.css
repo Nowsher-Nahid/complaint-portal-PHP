@@ -1,0 +1,36 @@
+.login-page, .register-page {
+	height: unset !important;
+	margin-top: 50px;
+}
+.btn-primary {
+	background-color: #317806 !important;
+	border-color: #317806 !important;
+}
+.btn-primary:hover {
+	background-color: #43990f !important;
+	border-color: #43990f !important;
+}
+.btn-primary a:hover {
+	color: #FFFFFF !important;
+}
+.btn-danger {
+	background-color: #f40002!important;
+}
+.btn-danger:hover {
+	background-color: #ff2123 !important;
+}
+[class*=sidebar-dark-] {
+	background-color: #317806 !important;
+}
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active {
+	background-color: #296703 !important;
+}
+.sidebar .nav-icon,
+.sidebar p {
+	color: #ffffff;
+}
+@media only screen and (min-width: 991px) {
+  	.login-box, .register-box {
+		width: 30% !important;
+	}
+}
